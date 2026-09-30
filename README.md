@@ -273,7 +273,6 @@ Il codice del server MCP è distribuito sotto licenza Apache 2.0. I binari `ewft
 
 <a id="english"></a>
 ## ENGLISH
-Ecco la traduzione completa ed elaborata in formato **Markdown** pronto per la sezione in inglese del file `README.md`:
 
 ```markdown
 # Windows Forensic MCP Server
