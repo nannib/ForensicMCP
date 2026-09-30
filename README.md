@@ -263,4 +263,4 @@ I file `*_output.txt` e `*_errors.txt` generati durante l'acquisizione si trovan
 
 ## Licenza
 
-Il codice del server MCP è distribuito sotto licenza MIT. I binari `ewftools` sono distribuiti da [alpine-sec/ewf-tools](https://github.com/alpine-sec/ewf-tools) e seguono la licenza di libewf (LGPL).
+Il codice del server MCP è distribuito sotto licenza Apache 2.0. I binari `ewftools` sono distribuiti da [alpine-sec/ewf-tools](https://github.com/alpine-sec/ewf-tools) e seguono la licenza di libewf (LGPL).
