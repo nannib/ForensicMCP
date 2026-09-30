@@ -1,0 +1,11 @@
+# Windows Forensic MCP Server — runtime dependencies
+
+# MCP Python SDK (server MCP, transport stdio)
+# Verificato con mcp 2.0.0 — espone mcp.server.mcpserver.MCPServer
+mcp>=2.0.0,<3.0.0
+
+# Tipi condivisi dell'SDK (dipendenza diretta di mcp, ma la fissiamo per chiarezza)
+mcp-types>=2.0.0,<3.0.0
+
+# Validazione / modelli (importato con try/except nel server)
+pydantic>=2.0.0

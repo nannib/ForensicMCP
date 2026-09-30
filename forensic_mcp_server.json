@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "forensic_mcp_server": {
+      "command": "C:\\PUT_YOUR_PYTHON_PATH\\python.exe",
+      "args": [
+        "C:\\ewftools-x64\\forensic_mcp_server.py"
+      ]
+    }
+  }
+}
