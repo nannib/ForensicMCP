@@ -3,6 +3,12 @@ MCP server for Windows forensic disk imaging with ewftools.
 
 # Windows Forensic MCP Server
 
+**[ENGLISH](#english) | [ITALIANO](#italiano)**
+
+---
+<a id="italiano"></a>
+# Windows Forensic MCP Server
+
 Server [MCP](https://modelcontextprotocol.io) per l'acquisizione forense di dischi e volumi Windows, basato su **ewftools** (libewf). Espone a un agente LLM (Claude Desktop, Cursor, ecc.) una serie di tool controllati per:
 
 - inventariare dischi fisici, partizioni e volumi logici (read-only);
@@ -264,3 +270,6 @@ I file `*_output.txt` e `*_errors.txt` generati durante l'acquisizione si trovan
 ## Licenza
 
 Il codice del server MCP è distribuito sotto licenza Apache 2.0. I binari `ewftools` sono distribuiti da [alpine-sec/ewf-tools](https://github.com/alpine-sec/ewf-tools) e seguono la licenza di libewf (LGPL).
+
+<a id="english"></a>
+## ENGLISH
