@@ -8,6 +8,7 @@ MCP server for Windows forensic disk imaging with ewftools.
 ---
 <a id="italiano"></a>
 # Windows Forensic MCP Server
+# ATTENZIONE: il programma non ha nessuna garanzia, fate i test su macchine di prova, sotto la vostra completa responsabilità.
 
 Server [MCP](https://modelcontextprotocol.io) per l'acquisizione forense di dischi e volumi Windows, basato su **ewftools** (libewf). Espone a un agente LLM (Claude Desktop, Cursor, ecc.) una serie di tool controllati per:
 
@@ -48,7 +49,8 @@ La release include:
 - **Python 3.10+**
 - **Privilegi di amministratore** — necessari per aprire `\\.\PHYSICALDRIVEn` in lettura
 - **`ewftools` (release v20230405)** — scaricati dal link sopra
-- Un agente LLM compatibile MCP (Claude Desktop, Cursor, ecc.)
+- Un agente LLM compatibile MCP (Claude Desktop, Cursor, Unsloth, ecc.)
+- pip install -r requirements.txt
 
 ---
 
@@ -273,9 +275,10 @@ Il codice del server MCP è distribuito sotto licenza Apache 2.0. I binari `ewft
 
 <a id="english"></a>
 ## ENGLISH
-
+# WARNING: The program comes with no warranty; perform tests on test machines at your own risk
 ```markdown
 # Windows Forensic MCP Server
+.
 
 An MCP server for the forensic acquisition of Windows disks and volumes, built on `ewftools` (`libewf`). It exposes a set of controlled tools to LLM agents (Claude Desktop, Cursor, etc.) to:
 - Inventory physical disks, partitions, and logical volumes (read-only).
@@ -314,8 +317,8 @@ The release includes:
 - **Python 3.10+**
 - **Administrator Privileges** — required to open `\\.\PHYSICALDRIVEn` for raw read access.
 - **`ewftools` (v20230405 release)** — downloaded from the link above.
-- An **MCP-compatible LLM Client** (Claude Desktop, Cursor, etc.)
-
+- An **MCP-compatible LLM Client** (Claude Desktop, Cursor, UnSloth, etc.)
+- pip install -r requirements.txt
 ---
 
 ## Installation
