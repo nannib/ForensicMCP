@@ -1098,6 +1098,8 @@ def plan_acquisition(
     hardware_write_blocker_attested: bool = False,
 ) -> dict[str, Any]:
     """Validate an acquisition plan without starting ewftools."""
+    fragment_size_mb: int = 1500
+    compression_level: int = 6
     if fragment_size_mb < 0 or fragment_size_mb > 200000:
         raise ValueError("fragment_size_mb fuori range")
     if compression_level < 0 or compression_level > 9:
