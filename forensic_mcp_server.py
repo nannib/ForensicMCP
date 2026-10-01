@@ -804,7 +804,6 @@ def run_ewf_acquire(
         "-t", target_base,
         "-l", log_file,
         "-d", "sha256",
-        "-d", "md5",
     ]
     if metadata.get("case_number"):
         ewf_args += ["-C", str(metadata["case_number"])]
